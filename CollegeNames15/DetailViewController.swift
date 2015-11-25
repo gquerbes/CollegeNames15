@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
     //when selected a universisty class object will be passed
-    var detailItem: UnivsersitiesClass? {
+    var detailItem: UniversitiesClass? {
         didSet {
             // Update the view.
             self.configureView()
